@@ -13,7 +13,7 @@ def list_folder_content(folder_path):
     try:
         print(os.listdir(folder_path))
     except Exception as e:
-        print(e.message)
+        print(e)
 
 
 list_folder_content(os.getcwd())
